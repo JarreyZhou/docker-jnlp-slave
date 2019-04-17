@@ -6,7 +6,7 @@ RUN apk add --no-cache \
 
 ENV LANG C.UTF-8
 
-RUN apk add --no-cache curl tar bash procps
+RUN apk add --no-cache curl tar bash procps redsocks
 
 ENV DOCKER_CHANNEL edge
 ENV DOCKER_VERSION 18.05.0-ce
@@ -89,3 +89,4 @@ VOLUME ${AGENT_WORKDIR}
 WORKDIR /home/${user}
 
 COPY jenkins-slave /usr/local/bin/jenkins-slave
+COPY redsocks.conf /tmp/redsocks.conf
