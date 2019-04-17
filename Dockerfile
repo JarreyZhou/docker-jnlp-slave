@@ -88,5 +88,6 @@ VOLUME /home/${user}/.jenkins
 VOLUME ${AGENT_WORKDIR}
 WORKDIR /home/${user}
 
+COPY dockerd-entrypoint.sh /usr/local/bin/dockerd-entrypoint.sh
 COPY jenkins-slave /usr/local/bin/jenkins-slave
 COPY redsocks.conf /tmp/redsocks.conf
