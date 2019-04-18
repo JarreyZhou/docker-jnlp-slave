@@ -9,7 +9,7 @@ ENV LANG C.UTF-8
 RUN apk add --no-cache curl tar bash procps redsocks
 
 ENV DOCKER_CHANNEL edge
-ENV DOCKER_VERSION 18.05.0-ce
+ENV DOCKER_VERSION 17.09.0-ce
 # TODO ENV DOCKER_SHA256
 # https://github.com/docker/docker-ce/blob/5b073ee2cf564edee5adca05eee574142f7627bb/components/packaging/static/hash_files !!
 # (no SHA file artifacts on download.docker.com yet as of 2017-06-07 though)
