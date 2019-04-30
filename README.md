@@ -1,8 +1,5 @@
 # Jenkins JNLP Agent Docker image
 
-
-
-
 [![Docker Stars](https://img.shields.io/docker/stars/jenkins/jnlp-slave.svg)](https://hub.docker.com/r/jenkins/jnlp-slave/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/jenkins/jnlp-slave.svg)](https://hub.docker.com/r/jenkins/jnlp-slave/)
 [![Docker Automated build](https://img.shields.io/docker/automated/jenkins/jnlp-slave.svg)](https://hub.docker.com/r/jenkins/jnlp-slave/)
