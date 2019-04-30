@@ -34,6 +34,7 @@ Optional environment variables:
 
 ## Configuration specifics
 
+
 ### Enabled JNLP protocols
 
 By default, the [JNLP3-connect](https://github.com/jenkinsci/remoting/blob/master/docs/protocols.md#jnlp3-connect) is disabled due to the known stability and scalability issues.
